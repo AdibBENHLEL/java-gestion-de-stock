@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\SomeTwo\Desktop\java-gestion de stock\java_gestion_de_stock_ADIB_BH\dist\java_gestion_de_stock_ADIB_BH.jar</jar>
+  <outfile>C:\Users\SomeTwo\Desktop\java-gestion de stock\App\exe\Bhadib.exe</outfile>
+  <errTitle>you must install Java Runtime Environment to run this app .</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://www.java.com/en/download/</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\SomeTwo\Desktop\java-gestion de stock\App\resource\logo.ico</icon>
+  <singleInstance>
+    <mutexName>BHadib-Stock Management &amp; invoice processing</mutexName>
+    <windowTitle>BHadib-Stock Management &amp; invoice processing</windowTitle>
+  </singleInstance>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>1.4.0</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0</txtFileVersion>
+    <fileDescription>this app is used for Stock Management &amp; invoice processing</fileDescription>
+    <copyright>All rights reserved -BY BAN HLEL ADIB</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0</txtProductVersion>
+    <productName>BHadib-Stock Management &amp; invoice processing</productName>
+    <companyName>BHadib</companyName>
+    <internalName>BHadib</internalName>
+    <originalFilename>Bhadib.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <jreNotFoundErr>This application requires a Java Runtime Environment.</jreNotFoundErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
